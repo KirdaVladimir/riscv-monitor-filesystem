@@ -38,7 +38,12 @@ Monitor podržava neposredan rad sa memorijom, dok fajl sistem dodaje upravljanj
 
 Za izgradnju i pokretanje potrebni su RISC-V toolchain (`riscv64-unknown-elf-*`), `qemu-system-riscv64` i `make`.
 
----
+```bash
+cd src
+make qemu
+```
+
+Komanda prevodi izvorni kod i pokreće monitor u QEMU emulatoru. Po pokretanju se javlja prompt `>` koji čeka na komande.
 
 ---
 
